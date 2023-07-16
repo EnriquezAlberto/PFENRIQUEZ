@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 10px 0;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h3 {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(19, 11, 11);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav {
+  background: linear-gradient(90deg, rgb(8, 224, 252) 5%, rgba(111,111,244,1) 50%, rgba(0,212,255,1) 100%);
+  color: #212121;
+  padding: 10px;
+  justify-content: center;
+  color: #212121;
+}
+.nav .nav-link {
+  color: #212121;
+}
+.nav a {
+  color: #212121;
+}
+
+.grupo-h h1 {
+  margin: 10px 0;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.grupo-h h2 {
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+h1,
+h2 {
+  margin: 15px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+  margin: 25px 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.mt-4 > h2{
+  margin: 56px 0;
+}
+
+button {
+  background-color: rgb(6, 5, 9);
+  width: 80%;
+  padding: 8px;
+  color: #fafafa;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.grupo-h {
+  margin: 0px 0;
+  color: #fafafa;
+  background: #212121;
+  padding: 56px;
+}
+
+.p-about {
+  margin: 150px 0;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  
+}
+
+.marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+}
+
+.col-sm-6 {
+  margin: 39px 0;
+}
+
+.h2-proyecto {
+  margin: 52px 0;
+  font-weight: 700px;
+}
+
+.col-sm-4:hover {
+  transform: translateY(-13px);
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form label {
+  margin: 15px;
+  font-size: 20px;
+}
+form .boton-formulario {
+  margin-top: 20px;
+  width: 30%;
+}
+form input {
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.mensaje {
+  padding: 43px;
+}
+
+footer {
+  background-color: #212121;
+  color: #fafafa;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  text-align: center;
+  margin-top: 80px;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+span {
+  justify-content: center;
+}
+
+.sobre-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700px;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 22px;
+}
+.sobre-nosotros p {
+  margin: 20px 0;
+}
+
+.cuadro {
+  color: #fafafa;
+  background-color: #212121;
+  padding: 45px;
+}
+.cuadro h1,
+.cuadro h2 {
+  font-weight: 800px;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.py-4 {
+  margin-top: 50px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(80, 219, 238) 5%, rgb(106, 164, 227) 50%, rgba(0,212,255,1) 100%);
+}
+
+@media (max-width: 767px) {
+  html,
+  nav,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .col-md-5 {
+    width: 100%;
+  }
+  .fila-form {
+    justify-content: center;
+  }
+  .p-about{
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px){
+.p-about{
+  font-size: 20px;
+  margin: 40px 0;
+ }
+}
+
+@media (max-width: 320px){
+  body{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 2560px) {
+  img,
+  button {
+    width: 100%;
+    height: auto;
+  }
+}
+.contenedor {
+  margin-top: 290px;
+}
+.contenedor .faq-section {
+  text-align: center;
+}
+.contenedor .faq-section .faq {
+  margin-top: 20px;
+}
+.contenedor .faq-section .pregunta {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contenedor .faq-section h3 {
+  font-weight: bold;
+}
+.contenedor .faq-section p {
+  margin-top: 10px;
+}
+
+div, h5, p {
+  text-align: start;
+}
+
+.faq-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
+.rdz{
+  width: 60%;
+  padding: 45px;
+  border-radius: 0; 
+}
+.fila-form{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ 
+}
+.col-md-7{
+  padding: 20px;
+}
+.col-md-5{
+  background: #1089ff;
+  padding: 20px;
+  color: white;
+
+}
+.form-control {
+  height: 52px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bi{
+  font-size: 20px;
+}
+.d-flex p{
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media only screen and (max-width:600px){
+  .rdz{
+      width: 100%;
+  }
+}
+
+.row {
+  align-items: center;
+  margin-top: 30px;
+}
+
+ /* Estilos CSS para el menú hamburguesa */
+
+
+.nav {
+ 
+  align-items: center;
+  background-color: linear-gradient(90deg, rgb(8, 224, 252) 5%, rgba(111,111,244,1) 50%, rgba(0,212,255,1) 100%) !important;
+  padding: 10px;
+}
+.nav-link {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
