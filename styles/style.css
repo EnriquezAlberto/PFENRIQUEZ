@@ -88,6 +88,9 @@ a {
   width: 100%;
   text-align: center;
 }
+.img-fluid {
+  max-height: 259px;
+}
 
 .grupo-h {
   margin: 0px 0;
