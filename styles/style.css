@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 p {
   margin: 10px 0;
   align-items: center;
@@ -80,7 +79,6 @@ a {
   align-items: center;
   text-decoration: none;
 }
-
 .botones {
   display: flex;
   justify-content: center;
@@ -105,18 +103,15 @@ a {
   font-family: sans-serif;
   font-weight: 500;
 }
-
 .marca {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: auto;
 }
-
 .col-sm-6 {
   margin: 39px 0;
 }
-
 .h2-proyecto {
   margin: 52px 0;
   font-weight: 700px;
@@ -321,7 +316,6 @@ div, h5, p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 @media only screen and (max-width:600px){
   .rdz{
       width: 100%;
@@ -333,7 +327,6 @@ div, h5, p {
 }
 
  /* Estilos CSS para el menú hamburguesa */
-
 
 .nav {
  
